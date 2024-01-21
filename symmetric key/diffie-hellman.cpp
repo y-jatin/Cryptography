@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long power(long long a, long long b,
-					long long c)
+long long power(long long a, long long b, long long c)
 {
 	return (long long)pow(a, b) % c;
 }
